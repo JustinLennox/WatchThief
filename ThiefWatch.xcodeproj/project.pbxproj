@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D08B7A221B28EB77007AFDF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A211B28EB77007AFDF6 /* main.m */; };
+		D08B7A251B28EB77007AFDF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A241B28EB77007AFDF6 /* AppDelegate.m */; };
+		D08B7A281B28EB77007AFDF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A271B28EB77007AFDF6 /* ViewController.m */; };
+		D08B7A2B1B28EB77007AFDF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A291B28EB77007AFDF6 /* Main.storyboard */; };
+		D08B7A301B28EB77007AFDF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A2E1B28EB77007AFDF6 /* LaunchScreen.xib */; };
+		D08B7A3C1B28EB77007AFDF6 /* ThiefWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A3B1B28EB77007AFDF6 /* ThiefWatchTests.m */; };
+		D08B7A4F1B28EBE8007AFDF6 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A4E1B28EBE8007AFDF6 /* InterfaceController.m */; };
+		D08B7A551B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A541B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app */; };
+		D08B7A5D1B28EBE8007AFDF6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A5B1B28EBE8007AFDF6 /* Interface.storyboard */; };
+		D08B7A621B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D08B7A491B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D08B7A6B1B28ECF6007AFDF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A2C1B28EB77007AFDF6 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D08B7A361B28EB77007AFDF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D08B7A141B28EB76007AFDF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08B7A1B1B28EB77007AFDF6;
+			remoteInfo = ThiefWatch;
+		};
+		D08B7A561B28EBE8007AFDF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D08B7A141B28EB76007AFDF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08B7A531B28EBE8007AFDF6;
+			remoteInfo = "ThiefWatch WatchKit App";
+		};
+		D08B7A601B28EBE8007AFDF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D08B7A141B28EB76007AFDF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08B7A481B28EBE8007AFDF6;
+			remoteInfo = "ThiefWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D08B7A691B28EBE8007AFDF6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D08B7A621B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D08B7A1C1B28EB77007AFDF6 /* ThiefWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThiefWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B7A201B28EB77007AFDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08B7A211B28EB77007AFDF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D08B7A231B28EB77007AFDF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D08B7A241B28EB77007AFDF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D08B7A261B28EB77007AFDF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D08B7A271B28EB77007AFDF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D08B7A2A1B28EB77007AFDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D08B7A2C1B28EB77007AFDF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../ThiefWatch/Images.xcassets; sourceTree = "<group>"; };
+		D08B7A2F1B28EB77007AFDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D08B7A351B28EB77007AFDF6 /* ThiefWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThiefWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B7A3A1B28EB77007AFDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08B7A3B1B28EB77007AFDF6 /* ThiefWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThiefWatchTests.m; sourceTree = "<group>"; };
+		D08B7A491B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ThiefWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B7A4C1B28EBE8007AFDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08B7A4D1B28EBE8007AFDF6 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		D08B7A4E1B28EBE8007AFDF6 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		D08B7A541B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThiefWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B7A5A1B28EBE8007AFDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08B7A5C1B28EBE8007AFDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D08B7A191B28EB77007AFDF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B7A321B28EB77007AFDF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B7A461B28EBE8007AFDF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D08B7A131B28EB76007AFDF6 = {
+			isa = PBXGroup;
+			children = (
+				D08B7A1E1B28EB77007AFDF6 /* ThiefWatch */,
+				D08B7A381B28EB77007AFDF6 /* ThiefWatchTests */,
+				D08B7A4A1B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension */,
+				D08B7A581B28EBE8007AFDF6 /* ThiefWatch WatchKit App */,
+				D08B7A1D1B28EB77007AFDF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D08B7A1D1B28EB77007AFDF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D08B7A1C1B28EB77007AFDF6 /* ThiefWatch.app */,
+				D08B7A351B28EB77007AFDF6 /* ThiefWatchTests.xctest */,
+				D08B7A491B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex */,
+				D08B7A541B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D08B7A1E1B28EB77007AFDF6 /* ThiefWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D08B7A231B28EB77007AFDF6 /* AppDelegate.h */,
+				D08B7A241B28EB77007AFDF6 /* AppDelegate.m */,
+				D08B7A261B28EB77007AFDF6 /* ViewController.h */,
+				D08B7A271B28EB77007AFDF6 /* ViewController.m */,
+				D08B7A291B28EB77007AFDF6 /* Main.storyboard */,
+				D08B7A2E1B28EB77007AFDF6 /* LaunchScreen.xib */,
+				D08B7A1F1B28EB77007AFDF6 /* Supporting Files */,
+			);
+			path = ThiefWatch;
+			sourceTree = "<group>";
+		};
+		D08B7A1F1B28EB77007AFDF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D08B7A201B28EB77007AFDF6 /* Info.plist */,
+				D08B7A211B28EB77007AFDF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D08B7A381B28EB77007AFDF6 /* ThiefWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				D08B7A3B1B28EB77007AFDF6 /* ThiefWatchTests.m */,
+				D08B7A391B28EB77007AFDF6 /* Supporting Files */,
+			);
+			path = ThiefWatchTests;
+			sourceTree = "<group>";
+		};
+		D08B7A391B28EB77007AFDF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D08B7A3A1B28EB77007AFDF6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D08B7A4A1B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D08B7A4D1B28EBE8007AFDF6 /* InterfaceController.h */,
+				D08B7A4E1B28EBE8007AFDF6 /* InterfaceController.m */,
+				D08B7A4B1B28EBE8007AFDF6 /* Supporting Files */,
+			);
+			path = "ThiefWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D08B7A4B1B28EBE8007AFDF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D08B7A4C1B28EBE8007AFDF6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D08B7A581B28EBE8007AFDF6 /* ThiefWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D08B7A2C1B28EB77007AFDF6 /* Images.xcassets */,
+				D08B7A5B1B28EBE8007AFDF6 /* Interface.storyboard */,
+				D08B7A591B28EBE8007AFDF6 /* Supporting Files */,
+			);
+			path = "ThiefWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		D08B7A591B28EBE8007AFDF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D08B7A5A1B28EBE8007AFDF6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D08B7A1B1B28EB77007AFDF6 /* ThiefWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08B7A3F1B28EB77007AFDF6 /* Build configuration list for PBXNativeTarget "ThiefWatch" */;
+			buildPhases = (
+				D08B7A181B28EB77007AFDF6 /* Sources */,
+				D08B7A191B28EB77007AFDF6 /* Frameworks */,
+				D08B7A1A1B28EB77007AFDF6 /* Resources */,
+				D08B7A691B28EBE8007AFDF6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D08B7A611B28EBE8007AFDF6 /* PBXTargetDependency */,
+			);
+			name = ThiefWatch;
+			productName = ThiefWatch;
+			productReference = D08B7A1C1B28EB77007AFDF6 /* ThiefWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D08B7A341B28EB77007AFDF6 /* ThiefWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08B7A421B28EB77007AFDF6 /* Build configuration list for PBXNativeTarget "ThiefWatchTests" */;
+			buildPhases = (
+				D08B7A311B28EB77007AFDF6 /* Sources */,
+				D08B7A321B28EB77007AFDF6 /* Frameworks */,
+				D08B7A331B28EB77007AFDF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D08B7A371B28EB77007AFDF6 /* PBXTargetDependency */,
+			);
+			name = ThiefWatchTests;
+			productName = ThiefWatchTests;
+			productReference = D08B7A351B28EB77007AFDF6 /* ThiefWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D08B7A481B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08B7A661B28EBE8007AFDF6 /* Build configuration list for PBXNativeTarget "ThiefWatch WatchKit Extension" */;
+			buildPhases = (
+				D08B7A451B28EBE8007AFDF6 /* Sources */,
+				D08B7A461B28EBE8007AFDF6 /* Frameworks */,
+				D08B7A471B28EBE8007AFDF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D08B7A571B28EBE8007AFDF6 /* PBXTargetDependency */,
+			);
+			name = "ThiefWatch WatchKit Extension";
+			productName = "ThiefWatch WatchKit Extension";
+			productReference = D08B7A491B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D08B7A531B28EBE8007AFDF6 /* ThiefWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08B7A631B28EBE8007AFDF6 /* Build configuration list for PBXNativeTarget "ThiefWatch WatchKit App" */;
+			buildPhases = (
+				D08B7A521B28EBE8007AFDF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ThiefWatch WatchKit App";
+			productName = "ThiefWatch WatchKit App";
+			productReference = D08B7A541B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D08B7A141B28EB76007AFDF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Justin Lennox";
+				TargetAttributes = {
+					D08B7A1B1B28EB77007AFDF6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D08B7A341B28EB77007AFDF6 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D08B7A1B1B28EB77007AFDF6;
+					};
+					D08B7A481B28EBE8007AFDF6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D08B7A531B28EBE8007AFDF6 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9J68NTR2N3;
+					};
+				};
+			};
+			buildConfigurationList = D08B7A171B28EB76007AFDF6 /* Build configuration list for PBXProject "ThiefWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D08B7A131B28EB76007AFDF6;
+			productRefGroup = D08B7A1D1B28EB77007AFDF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D08B7A1B1B28EB77007AFDF6 /* ThiefWatch */,
+				D08B7A341B28EB77007AFDF6 /* ThiefWatchTests */,
+				D08B7A481B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension */,
+				D08B7A531B28EBE8007AFDF6 /* ThiefWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D08B7A1A1B28EB77007AFDF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B7A2B1B28EB77007AFDF6 /* Main.storyboard in Resources */,
+				D08B7A301B28EB77007AFDF6 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B7A331B28EB77007AFDF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B7A471B28EBE8007AFDF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B7A551B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B7A521B28EBE8007AFDF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B7A6B1B28ECF6007AFDF6 /* Images.xcassets in Resources */,
+				D08B7A5D1B28EBE8007AFDF6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D08B7A181B28EB77007AFDF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B7A281B28EB77007AFDF6 /* ViewController.m in Sources */,
+				D08B7A251B28EB77007AFDF6 /* AppDelegate.m in Sources */,
+				D08B7A221B28EB77007AFDF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B7A311B28EB77007AFDF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B7A3C1B28EB77007AFDF6 /* ThiefWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B7A451B28EBE8007AFDF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B7A4F1B28EBE8007AFDF6 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D08B7A371B28EB77007AFDF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D08B7A1B1B28EB77007AFDF6 /* ThiefWatch */;
+			targetProxy = D08B7A361B28EB77007AFDF6 /* PBXContainerItemProxy */;
+		};
+		D08B7A571B28EBE8007AFDF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D08B7A531B28EBE8007AFDF6 /* ThiefWatch WatchKit App */;
+			targetProxy = D08B7A561B28EBE8007AFDF6 /* PBXContainerItemProxy */;
+		};
+		D08B7A611B28EBE8007AFDF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D08B7A481B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension */;
+			targetProxy = D08B7A601B28EBE8007AFDF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D08B7A291B28EB77007AFDF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08B7A2A1B28EB77007AFDF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D08B7A2E1B28EB77007AFDF6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08B7A2F1B28EB77007AFDF6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D08B7A5B1B28EBE8007AFDF6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08B7A5C1B28EBE8007AFDF6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D08B7A3D1B28EB77007AFDF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D08B7A3E1B28EB77007AFDF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D08B7A401B28EB77007AFDF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThiefWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D08B7A411B28EB77007AFDF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThiefWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D08B7A431B28EB77007AFDF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThiefWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThiefWatch.app/ThiefWatch";
+			};
+			name = Debug;
+		};
+		D08B7A441B28EB77007AFDF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThiefWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThiefWatch.app/ThiefWatch";
+			};
+			name = Release;
+		};
+		D08B7A641B28EBE8007AFDF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ThiefWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "ThiefWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D08B7A651B28EBE8007AFDF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = ThiefWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "ThiefWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D08B7A671B28EBE8007AFDF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThiefWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D08B7A681B28EBE8007AFDF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ThiefWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D08B7A171B28EB76007AFDF6 /* Build configuration list for PBXProject "ThiefWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08B7A3D1B28EB77007AFDF6 /* Debug */,
+				D08B7A3E1B28EB77007AFDF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08B7A3F1B28EB77007AFDF6 /* Build configuration list for PBXNativeTarget "ThiefWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08B7A401B28EB77007AFDF6 /* Debug */,
+				D08B7A411B28EB77007AFDF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08B7A421B28EB77007AFDF6 /* Build configuration list for PBXNativeTarget "ThiefWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08B7A431B28EB77007AFDF6 /* Debug */,
+				D08B7A441B28EB77007AFDF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08B7A631B28EBE8007AFDF6 /* Build configuration list for PBXNativeTarget "ThiefWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08B7A641B28EBE8007AFDF6 /* Debug */,
+				D08B7A651B28EBE8007AFDF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08B7A661B28EBE8007AFDF6 /* Build configuration list for PBXNativeTarget "ThiefWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08B7A671B28EBE8007AFDF6 /* Debug */,
+				D08B7A681B28EBE8007AFDF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D08B7A141B28EB76007AFDF6 /* Project object */;
+}
