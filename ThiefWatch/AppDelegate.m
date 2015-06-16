@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -36,6 +37,15 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+}
+
+- (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void(^)(NSDictionary *replyInfo))reply{
+    
+
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"WatchKitReq"
+                                                        object:reply
+                                                      userInfo:userInfo];
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

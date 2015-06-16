@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8066.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SourceSansPro-Light.otf">
+            <string>SourceSansPro-Light</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
                 <controller spacing="0.0" id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <imageView width="1" height="0.69999999999999996" alignment="left" image="ThiefWatchLogo" id="t2G-jy-mTq"/>
-                        <label width="1" height="1" alignment="left" text="The Thief Was..." textAlignment="center" numberOfLines="2" id="Y52-Yf-hqx" userLabel="TheThiefWasLabel">
+                        <imageView width="1" height="0.40000000000000002" alignment="left" verticalAlignment="center" image="watchWithCharsBuffer" contentMode="scaleAspectFit" id="t2G-jy-mTq"/>
+                        <label width="0.90000000000000002" height="0.29999999999999999" alignment="center" text="WatchThief" textAlignment="center" minimumScaleFactor="0.30000000000000016" id="f0s-m8-xaP">
+                            <fontDescription key="font" name="SourceSansPro-Light" family="Source Sans Pro" pointSize="40"/>
+                        </label>
+                        <label width="1" height="1" alignment="left" hidden="YES" text="The Thief Was..." textAlignment="center" numberOfLines="2" id="Y52-Yf-hqx" userLabel="TheThiefWasLabel">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </label>
-                        <imageView width="1" height="0.69999999999999996" alignment="center" verticalAlignment="center" image="BoltGhost" id="yZQ-xj-BkG" userLabel="thiefRevealImage"/>
-                        <group width="1" height="0.29999999999999999" alignment="center" verticalAlignment="center" id="I73-EF-Zda" userLabel="PlayButtons">
+                        <imageView width="1" height="0.69999999999999996" alignment="center" verticalAlignment="center" hidden="YES" image="KWin" id="yZQ-xj-BkG" userLabel="thiefRevealImage"/>
+                        <group width="1" height="0.29999999999999999" alignment="left" verticalAlignment="center" spacing="2" id="I73-EF-Zda" userLabel="PlayButtons">
                             <items>
-                                <button width="0.33000000000000002" height="1" alignment="center" title="E" id="mzT-Ge-2d9">
-                                    <color key="backgroundColor" red="0.1529411765" green="0.68235294120000001" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <button width="0.33333332999999998" height="1" alignment="left" title="E" backgroundImage="EasyButton" id="mzT-Ge-2d9">
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="17"/>
                                     <connections>
                                         <action selector="easyButtonPressed" destination="AgC-eL-Hgc" id="hMv-OK-ZqI"/>
                                     </connections>
                                 </button>
-                                <button width="0.33000000000000002" height="1" alignment="center" title="M" id="tiT-Fm-mxi">
-                                    <color key="backgroundColor" red="0.16078431372549021" green="0.50196078431372548" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <button width="0.33333333329999998" height="1" alignment="left" title="M" backgroundImage="MediumButton" id="tiT-Fm-mxi">
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="17"/>
                                     <connections>
                                         <action selector="mediumButtonPressed" destination="AgC-eL-Hgc" id="qVm-fJ-Kwc"/>
                                     </connections>
                                 </button>
-                                <button width="0.33000000000000002" height="1" alignment="center" title="H" id="07w-AI-UGr">
-                                    <color key="backgroundColor" red="0.90588235294117647" green="0.29803921568627451" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <button width="0.33333332999999998" height="1" alignment="right" title="H" backgroundImage="HardButton" id="07w-AI-UGr">
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="17"/>
                                     <connections>
                                         <action selector="hardButtonPressed" destination="AgC-eL-Hgc" id="KjQ-oi-RPL"/>
                                     </connections>
@@ -38,8 +46,8 @@
                             </items>
                             <edgeInsets key="margins" left="1" right="1" top="0.0" bottom="0.0"/>
                         </group>
-                        <imageView width="1" height="0.25" alignment="center" image="GEM" contentMode="scaleAspectFit" id="v37-aN-Rnj"/>
-                        <group width="1" height="0.75" alignment="left" verticalAlignment="bottom" spacing="0.0" id="GLw-Cn-33B" userLabel="Lanes">
+                        <imageView width="1" height="0.25" alignment="center" hidden="YES" image="flatWatch" contentMode="scaleAspectFit" id="v37-aN-Rnj"/>
+                        <group width="1" height="0.75" alignment="left" verticalAlignment="bottom" hidden="YES" spacing="0.0" id="GLw-Cn-33B" userLabel="Lanes">
                             <items>
                                 <button width="0.25" height="1" alignment="left" id="yRf-V0-VnV">
                                     <connections>
@@ -70,7 +78,7 @@
                     </items>
                     <menu key="menu" id="QQd-AY-F18">
                         <items>
-                            <menuItem title="Restart Game" id="8zt-Ek-gr9">
+                            <menuItem title="Restart Game" image="KWin" id="8zt-Ek-gr9">
                                 <connections>
                                     <action selector="forceTouch" destination="AgC-eL-Hgc" id="l8g-Le-4QP"/>
                                 </connections>
@@ -89,6 +97,7 @@
                         <outlet property="theThiefWasLabel" destination="Y52-Yf-hqx" id="UZu-C6-mbi"/>
                         <outlet property="thiefRevealImage" destination="yZQ-xj-BkG" id="RGZ-Na-sTA"/>
                         <outlet property="titleImage" destination="t2G-jy-mTq" id="HKZ-vQ-wmg"/>
+                        <outlet property="titleLabel" destination="f0s-m8-xaP" id="Yvx-Hw-htK"/>
                     </connections>
                 </controller>
             </objects>

@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) UITapGestureRecognizer *tapRecognizer;
+@property (strong, nonatomic) UISwipeGestureRecognizer *swipeLeftRecognizer;
+@property (strong, nonatomic) UISwipeGestureRecognizer *swipeRightRecognizer;
+@property (strong, nonatomic) UIImageView *imageView;
+@property (strong, nonatomic) NSArray *imageArray;
+@property (strong, nonatomic) UILabel *info;
+@property (nonatomic) int currentImage;
+@property (strong, nonatomic) NSString *imageName;
+@property (nonatomic) int currentAnimation;
+@property (nonatomic) int maxAnimation;
 
 @end
 

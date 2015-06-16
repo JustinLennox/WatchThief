@@ -7,17 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00CF1FB1B2F5928008CDEAB /* watchWithChars.png in Resources */ = {isa = PBXBuildFile; fileRef = D00CF1FA1B2F5928008CDEAB /* watchWithChars.png */; };
+		D00CF1FD1B2F6079008CDEAB /* Bandana.png in Resources */ = {isa = PBXBuildFile; fileRef = D00CF1FC1B2F6079008CDEAB /* Bandana.png */; };
+		D00CF1FF1B2F60ED008CDEAB /* flatWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = D00CF1FE1B2F60ED008CDEAB /* flatWatch.png */; };
+		D00CF2011B2F61ED008CDEAB /* Characters512.png in Resources */ = {isa = PBXBuildFile; fileRef = D00CF2001B2F61ED008CDEAB /* Characters512.png */; };
+		D02A6D561B2E24920069C76F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A6D551B2E24920069C76F /* StoreKit.framework */; };
+		D02A6D581B2E24980069C76F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A6D571B2E24980069C76F /* AudioToolbox.framework */; };
+		D02A6D5A1B2E25310069C76F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A6D571B2E24980069C76F /* AudioToolbox.framework */; };
+		D041E5D81B2D129300FB7EBB /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A4E1B28EBE8007AFDF6 /* InterfaceController.m */; };
+		D041E5DB1B2D12E600FB7EBB /* ThiefWatch.app in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A1C1B28EB77007AFDF6 /* ThiefWatch.app */; };
+		D05834D51B2B9F6200DE17EC /* Characters256.png in Resources */ = {isa = PBXBuildFile; fileRef = D05834D41B2B9F6200DE17EC /* Characters256.png */; };
+		D05834D71B2BA09300DE17EC /* OtherImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05834D61B2BA09300DE17EC /* OtherImages.xcassets */; };
+		D060824D1B2DF589003DB933 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D09334221B2B8FFF00AE0361 /* SourceSansPro-Light.otf */; };
+		D060824E1B2DF58B003DB933 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D09334221B2B8FFF00AE0361 /* SourceSansPro-Light.otf */; };
+		D06082521B2E0801003DB933 /* WatchAnimation1.png in Resources */ = {isa = PBXBuildFile; fileRef = D060824F1B2E0801003DB933 /* WatchAnimation1.png */; };
+		D06082541B2E0801003DB933 /* WatchAnimation3.png in Resources */ = {isa = PBXBuildFile; fileRef = D06082511B2E0801003DB933 /* WatchAnimation3.png */; };
+		D06082591B2E0B62003DB933 /* WatchAnimation2.png in Resources */ = {isa = PBXBuildFile; fileRef = D06082571B2E0B62003DB933 /* WatchAnimation2.png */; };
+		D060825A1B2E0B62003DB933 /* WatchAnimation4.png in Resources */ = {isa = PBXBuildFile; fileRef = D06082581B2E0B62003DB933 /* WatchAnimation4.png */; };
+		D06082601B2E0EB7003DB933 /* Watch2Animation1.png in Resources */ = {isa = PBXBuildFile; fileRef = D060825B1B2E0EB7003DB933 /* Watch2Animation1.png */; };
+		D06082611B2E0EB7003DB933 /* Watch2Animation2.png in Resources */ = {isa = PBXBuildFile; fileRef = D060825C1B2E0EB7003DB933 /* Watch2Animation2.png */; };
+		D06082621B2E0EB7003DB933 /* Watch2Animation3.png in Resources */ = {isa = PBXBuildFile; fileRef = D060825D1B2E0EB7003DB933 /* Watch2Animation3.png */; };
+		D06082631B2E0EB7003DB933 /* Watch2Animation4.png in Resources */ = {isa = PBXBuildFile; fileRef = D060825E1B2E0EB7003DB933 /* Watch2Animation4.png */; };
+		D06082641B2E0EB7003DB933 /* Watch2Animation5.png in Resources */ = {isa = PBXBuildFile; fileRef = D060825F1B2E0EB7003DB933 /* Watch2Animation5.png */; };
+		D06082661B2E0F77003DB933 /* Jail.png in Resources */ = {isa = PBXBuildFile; fileRef = D06082651B2E0F77003DB933 /* Jail.png */; };
+		D060826A1B2E1100003DB933 /* Loss.png in Resources */ = {isa = PBXBuildFile; fileRef = D06082691B2E1100003DB933 /* Loss.png */; };
+		D060826D1B2E1225003DB933 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D060826C1B2E1225003DB933 /* MainViewController.m */; };
+		D0656DAD1B2B9A27002C471D /* characters.png in Resources */ = {isa = PBXBuildFile; fileRef = D0656DAC1B2B9A27002C471D /* characters.png */; };
+		D0656DAF1B2B9C46002C471D /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = D0656DAE1B2B9C46002C471D /* 128.png */; };
 		D08B7A221B28EB77007AFDF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A211B28EB77007AFDF6 /* main.m */; };
 		D08B7A251B28EB77007AFDF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A241B28EB77007AFDF6 /* AppDelegate.m */; };
 		D08B7A281B28EB77007AFDF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A271B28EB77007AFDF6 /* ViewController.m */; };
 		D08B7A2B1B28EB77007AFDF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A291B28EB77007AFDF6 /* Main.storyboard */; };
 		D08B7A301B28EB77007AFDF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A2E1B28EB77007AFDF6 /* LaunchScreen.xib */; };
 		D08B7A3C1B28EB77007AFDF6 /* ThiefWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A3B1B28EB77007AFDF6 /* ThiefWatchTests.m */; };
-		D08B7A4F1B28EBE8007AFDF6 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A4E1B28EBE8007AFDF6 /* InterfaceController.m */; };
-		D08B7A551B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A541B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app */; };
 		D08B7A5D1B28EBE8007AFDF6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A5B1B28EBE8007AFDF6 /* Interface.storyboard */; };
-		D08B7A621B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D08B7A491B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D08B7A621B28EBE8007AFDF6 /* ThiefWatch.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D08B7A491B28EBE8007AFDF6 /* ThiefWatch.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D08B7A6B1B28ECF6007AFDF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A2C1B28EB77007AFDF6 /* Images.xcassets */; };
+		D09334211B2B8F1900AE0361 /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = D09334201B2B8F1900AE0361 /* Launch.png */; };
+		D09334231B2B8FFF00AE0361 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D09334221B2B8FFF00AE0361 /* SourceSansPro-Light.otf */; };
+		D0E0428E1B2F2B670069DB40 /* WatchThiefTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E0428D1B2F2B670069DB40 /* WatchThiefTitle.png */; };
+		D0E042901B2F46B80069DB40 /* SF-UI-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0E0428F1B2F46B80069DB40 /* SF-UI-Display-Light.otf */; };
+		D0E042921B2F47170069DB40 /* Clock-100-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E042911B2F47170069DB40 /* Clock-100-2.png */; };
+		D0E042941B2F478C0069DB40 /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0E042931B2F478C0069DB40 /* SF-UI-Display-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +82,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D08B7A621B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex in Embed App Extensions */,
+				D08B7A621B28EBE8007AFDF6 /* ThiefWatch.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,6 +90,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D00CF1FA1B2F5928008CDEAB /* watchWithChars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watchWithChars.png; sourceTree = "<group>"; };
+		D00CF1FC1B2F6079008CDEAB /* Bandana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bandana.png; sourceTree = "<group>"; };
+		D00CF1FE1B2F60ED008CDEAB /* flatWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flatWatch.png; sourceTree = "<group>"; };
+		D00CF2001B2F61ED008CDEAB /* Characters512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Characters512.png; sourceTree = "<group>"; };
+		D02A6D551B2E24920069C76F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D02A6D571B2E24980069C76F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D05834D41B2B9F6200DE17EC /* Characters256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Characters256.png; sourceTree = "<group>"; };
+		D05834D61B2BA09300DE17EC /* OtherImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = OtherImages.xcassets; sourceTree = "<group>"; };
+		D060824F1B2E0801003DB933 /* WatchAnimation1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatchAnimation1.png; sourceTree = "<group>"; };
+		D06082511B2E0801003DB933 /* WatchAnimation3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatchAnimation3.png; sourceTree = "<group>"; };
+		D06082571B2E0B62003DB933 /* WatchAnimation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatchAnimation2.png; sourceTree = "<group>"; };
+		D06082581B2E0B62003DB933 /* WatchAnimation4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatchAnimation4.png; sourceTree = "<group>"; };
+		D060825B1B2E0EB7003DB933 /* Watch2Animation1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watch2Animation1.png; sourceTree = "<group>"; };
+		D060825C1B2E0EB7003DB933 /* Watch2Animation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watch2Animation2.png; sourceTree = "<group>"; };
+		D060825D1B2E0EB7003DB933 /* Watch2Animation3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watch2Animation3.png; sourceTree = "<group>"; };
+		D060825E1B2E0EB7003DB933 /* Watch2Animation4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watch2Animation4.png; sourceTree = "<group>"; };
+		D060825F1B2E0EB7003DB933 /* Watch2Animation5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watch2Animation5.png; sourceTree = "<group>"; };
+		D06082651B2E0F77003DB933 /* Jail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jail.png; sourceTree = "<group>"; };
+		D06082691B2E1100003DB933 /* Loss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Loss.png; sourceTree = "<group>"; };
+		D060826B1B2E1225003DB933 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D060826C1B2E1225003DB933 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D060826E1B2E1420003DB933 /* ThiefWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ThiefWatch.entitlements; sourceTree = "<group>"; };
+		D0656DAC1B2B9A27002C471D /* characters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = characters.png; sourceTree = "<group>"; };
+		D0656DAE1B2B9C46002C471D /* 128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128.png; sourceTree = "<group>"; };
 		D08B7A1C1B28EB77007AFDF6 /* ThiefWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThiefWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08B7A201B28EB77007AFDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D08B7A211B28EB77007AFDF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,16 +124,22 @@
 		D08B7A2A1B28EB77007AFDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D08B7A2C1B28EB77007AFDF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../ThiefWatch/Images.xcassets; sourceTree = "<group>"; };
 		D08B7A2F1B28EB77007AFDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D08B7A351B28EB77007AFDF6 /* ThiefWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThiefWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B7A351B28EB77007AFDF6 /* ThiefWatch.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThiefWatch.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08B7A3A1B28EB77007AFDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D08B7A3B1B28EB77007AFDF6 /* ThiefWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThiefWatchTests.m; sourceTree = "<group>"; };
-		D08B7A491B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ThiefWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B7A491B28EBE8007AFDF6 /* ThiefWatch.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ThiefWatch.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08B7A4C1B28EBE8007AFDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D08B7A4D1B28EBE8007AFDF6 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
 		D08B7A4E1B28EBE8007AFDF6 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		D08B7A541B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThiefWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B7A541B28EBE8007AFDF6 /* ThiefWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThiefWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08B7A5A1B28EBE8007AFDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D08B7A5C1B28EBE8007AFDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D09334201B2B8F1900AE0361 /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+		D09334221B2B8FFF00AE0361 /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		D0E0428D1B2F2B670069DB40 /* WatchThiefTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatchThiefTitle.png; sourceTree = "<group>"; };
+		D0E0428F1B2F46B80069DB40 /* SF-UI-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Light.otf"; sourceTree = "<group>"; };
+		D0E042911B2F47170069DB40 /* Clock-100-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock-100-2.png"; sourceTree = "<group>"; };
+		D0E042931B2F478C0069DB40 /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02A6D561B2E24920069C76F /* StoreKit.framework in Frameworks */,
+				D02A6D581B2E24980069C76F /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02A6D5A1B2E25310069C76F /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +173,8 @@
 		D08B7A131B28EB76007AFDF6 = {
 			isa = PBXGroup;
 			children = (
+				D02A6D571B2E24980069C76F /* AudioToolbox.framework */,
+				D02A6D551B2E24920069C76F /* StoreKit.framework */,
 				D08B7A1E1B28EB77007AFDF6 /* ThiefWatch */,
 				D08B7A381B28EB77007AFDF6 /* ThiefWatchTests */,
 				D08B7A4A1B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension */,
@@ -121,9 +187,9 @@
 			isa = PBXGroup;
 			children = (
 				D08B7A1C1B28EB77007AFDF6 /* ThiefWatch.app */,
-				D08B7A351B28EB77007AFDF6 /* ThiefWatchTests.xctest */,
-				D08B7A491B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex */,
-				D08B7A541B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app */,
+				D08B7A351B28EB77007AFDF6 /* ThiefWatch.xctest */,
+				D08B7A491B28EBE8007AFDF6 /* ThiefWatch.appex */,
+				D08B7A541B28EBE8007AFDF6 /* ThiefWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,12 +197,39 @@
 		D08B7A1E1B28EB77007AFDF6 /* ThiefWatch */ = {
 			isa = PBXGroup;
 			children = (
+				D060826E1B2E1420003DB933 /* ThiefWatch.entitlements */,
 				D08B7A231B28EB77007AFDF6 /* AppDelegate.h */,
 				D08B7A241B28EB77007AFDF6 /* AppDelegate.m */,
 				D08B7A261B28EB77007AFDF6 /* ViewController.h */,
 				D08B7A271B28EB77007AFDF6 /* ViewController.m */,
+				D0656DAC1B2B9A27002C471D /* characters.png */,
+				D09334201B2B8F1900AE0361 /* Launch.png */,
+				D05834D41B2B9F6200DE17EC /* Characters256.png */,
+				D060825B1B2E0EB7003DB933 /* Watch2Animation1.png */,
+				D0E042931B2F478C0069DB40 /* SF-UI-Display-Bold.otf */,
+				D060825C1B2E0EB7003DB933 /* Watch2Animation2.png */,
+				D060825D1B2E0EB7003DB933 /* Watch2Animation3.png */,
+				D060825E1B2E0EB7003DB933 /* Watch2Animation4.png */,
+				D06082691B2E1100003DB933 /* Loss.png */,
+				D060825F1B2E0EB7003DB933 /* Watch2Animation5.png */,
+				D0E0428D1B2F2B670069DB40 /* WatchThiefTitle.png */,
+				D00CF1FC1B2F6079008CDEAB /* Bandana.png */,
+				D06082571B2E0B62003DB933 /* WatchAnimation2.png */,
+				D06082581B2E0B62003DB933 /* WatchAnimation4.png */,
+				D06082651B2E0F77003DB933 /* Jail.png */,
+				D060824F1B2E0801003DB933 /* WatchAnimation1.png */,
+				D0E042911B2F47170069DB40 /* Clock-100-2.png */,
+				D00CF1FA1B2F5928008CDEAB /* watchWithChars.png */,
+				D06082511B2E0801003DB933 /* WatchAnimation3.png */,
+				D0E0428F1B2F46B80069DB40 /* SF-UI-Display-Light.otf */,
+				D060826B1B2E1225003DB933 /* MainViewController.h */,
+				D060826C1B2E1225003DB933 /* MainViewController.m */,
+				D00CF1FE1B2F60ED008CDEAB /* flatWatch.png */,
 				D08B7A291B28EB77007AFDF6 /* Main.storyboard */,
+				D00CF2001B2F61ED008CDEAB /* Characters512.png */,
 				D08B7A2E1B28EB77007AFDF6 /* LaunchScreen.xib */,
+				D05834D61B2BA09300DE17EC /* OtherImages.xcassets */,
+				D0656DAE1B2B9C46002C471D /* 128.png */,
 				D08B7A1F1B28EB77007AFDF6 /* Supporting Files */,
 			);
 			path = ThiefWatch;
@@ -145,6 +238,7 @@
 		D08B7A1F1B28EB77007AFDF6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D09334221B2B8FFF00AE0361 /* SourceSansPro-Light.otf */,
 				D08B7A201B28EB77007AFDF6 /* Info.plist */,
 				D08B7A211B28EB77007AFDF6 /* main.m */,
 			);
@@ -241,7 +335,7 @@
 			);
 			name = ThiefWatchTests;
 			productName = ThiefWatchTests;
-			productReference = D08B7A351B28EB77007AFDF6 /* ThiefWatchTests.xctest */;
+			productReference = D08B7A351B28EB77007AFDF6 /* ThiefWatch.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D08B7A481B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension */ = {
@@ -259,7 +353,7 @@
 			);
 			name = "ThiefWatch WatchKit Extension";
 			productName = "ThiefWatch WatchKit Extension";
-			productReference = D08B7A491B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension.appex */;
+			productReference = D08B7A491B28EBE8007AFDF6 /* ThiefWatch.appex */;
 			productType = "com.apple.product-type.watchkit-extension";
 		};
 		D08B7A531B28EBE8007AFDF6 /* ThiefWatch WatchKit App */ = {
@@ -274,7 +368,7 @@
 			);
 			name = "ThiefWatch WatchKit App";
 			productName = "ThiefWatch WatchKit App";
-			productReference = D08B7A541B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app */;
+			productReference = D08B7A541B28EBE8007AFDF6 /* ThiefWatch.app */;
 			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
@@ -283,18 +377,43 @@
 		D08B7A141B28EB76007AFDF6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Justin Lennox";
 				TargetAttributes = {
 					D08B7A1B1B28EB77007AFDF6 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9J68NTR2N3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 					D08B7A341B28EB77007AFDF6 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9J68NTR2N3;
 						TestTargetID = D08B7A1B1B28EB77007AFDF6;
 					};
 					D08B7A481B28EBE8007AFDF6 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9J68NTR2N3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
 					};
 					D08B7A531B28EBE8007AFDF6 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -328,8 +447,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05834D71B2BA09300DE17EC /* OtherImages.xcassets in Resources */,
+				D0E042941B2F478C0069DB40 /* SF-UI-Display-Bold.otf in Resources */,
+				D09334211B2B8F1900AE0361 /* Launch.png in Resources */,
+				D00CF1FD1B2F6079008CDEAB /* Bandana.png in Resources */,
+				D0E042901B2F46B80069DB40 /* SF-UI-Display-Light.otf in Resources */,
+				D06082641B2E0EB7003DB933 /* Watch2Animation5.png in Resources */,
+				D0E0428E1B2F2B670069DB40 /* WatchThiefTitle.png in Resources */,
+				D06082521B2E0801003DB933 /* WatchAnimation1.png in Resources */,
+				D05834D51B2B9F6200DE17EC /* Characters256.png in Resources */,
+				D06082631B2E0EB7003DB933 /* Watch2Animation4.png in Resources */,
 				D08B7A2B1B28EB77007AFDF6 /* Main.storyboard in Resources */,
+				D00CF2011B2F61ED008CDEAB /* Characters512.png in Resources */,
+				D06082601B2E0EB7003DB933 /* Watch2Animation1.png in Resources */,
+				D060825A1B2E0B62003DB933 /* WatchAnimation4.png in Resources */,
+				D06082661B2E0F77003DB933 /* Jail.png in Resources */,
+				D060826A1B2E1100003DB933 /* Loss.png in Resources */,
+				D06082541B2E0801003DB933 /* WatchAnimation3.png in Resources */,
+				D00CF1FF1B2F60ED008CDEAB /* flatWatch.png in Resources */,
+				D06082591B2E0B62003DB933 /* WatchAnimation2.png in Resources */,
+				D0E042921B2F47170069DB40 /* Clock-100-2.png in Resources */,
+				D00CF1FB1B2F5928008CDEAB /* watchWithChars.png in Resources */,
+				D0656DAD1B2B9A27002C471D /* characters.png in Resources */,
+				D0656DAF1B2B9C46002C471D /* 128.png in Resources */,
+				D09334231B2B8FFF00AE0361 /* SourceSansPro-Light.otf in Resources */,
+				D06082611B2E0EB7003DB933 /* Watch2Animation2.png in Resources */,
 				D08B7A301B28EB77007AFDF6 /* LaunchScreen.xib in Resources */,
+				D06082621B2E0EB7003DB933 /* Watch2Animation3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +488,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08B7A551B28EBE8007AFDF6 /* ThiefWatch WatchKit App.app in Resources */,
+				D060824D1B2DF589003DB933 /* SourceSansPro-Light.otf in Resources */,
+				D041E5DB1B2D12E600FB7EBB /* ThiefWatch.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +497,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D060824E1B2DF58B003DB933 /* SourceSansPro-Light.otf in Resources */,
 				D08B7A6B1B28ECF6007AFDF6 /* Images.xcassets in Resources */,
 				D08B7A5D1B28EBE8007AFDF6 /* Interface.storyboard in Resources */,
 			);
@@ -367,6 +513,7 @@
 				D08B7A281B28EB77007AFDF6 /* ViewController.m in Sources */,
 				D08B7A251B28EB77007AFDF6 /* AppDelegate.m in Sources */,
 				D08B7A221B28EB77007AFDF6 /* main.m in Sources */,
+				D060826D1B2E1225003DB933 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +529,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08B7A4F1B28EBE8007AFDF6 /* InterfaceController.m in Sources */,
+				D041E5D81B2D129300FB7EBB /* InterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,10 +598,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -470,7 +619,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -495,6 +644,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -508,7 +658,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -520,9 +670,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ThiefWatch/ThiefWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ThiefWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinLennox.ThiefWatch;
+				PRODUCT_NAME = ThiefWatch;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -530,9 +687,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ThiefWatch/ThiefWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ThiefWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinLennox.ThiefWatch;
+				PRODUCT_NAME = ThiefWatch;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -540,6 +704,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -550,7 +716,10 @@
 				);
 				INFOPLIST_FILE = ThiefWatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JustinLennox.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ThiefWatch;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThiefWatch.app/ThiefWatch";
 			};
 			name = Debug;
@@ -559,13 +728,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ThiefWatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JustinLennox.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ThiefWatch;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThiefWatch.app/ThiefWatch";
 			};
 			name = Release;
@@ -583,9 +757,10 @@
 				IBSC_MODULE = ThiefWatch_WatchKit_Extension;
 				INFOPLIST_FILE = "ThiefWatch WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinLennox.ThiefWatch.watchkitapp;
+				PRODUCT_NAME = ThiefWatch;
 				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
 			};
@@ -600,9 +775,10 @@
 				IBSC_MODULE = ThiefWatch_WatchKit_Extension;
 				INFOPLIST_FILE = "ThiefWatch WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinLennox.ThiefWatch.watchkitapp;
+				PRODUCT_NAME = ThiefWatch;
 				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
 			};
@@ -611,24 +787,34 @@
 		D08B7A671B28EBE8007AFDF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ThiefWatch/ThiefWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ThiefWatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinLennox.ThiefWatch.watchkitextension;
+				PRODUCT_NAME = ThiefWatch;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
 		D08B7A681B28EBE8007AFDF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ThiefWatch/ThiefWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ThiefWatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinLennox.ThiefWatch.watchkitextension;
+				PRODUCT_NAME = ThiefWatch;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};

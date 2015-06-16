@@ -2,16 +2,18 @@
   "images" : [
     {
       "idiom" : "watch",
+      "filename" : "K1Small.png",
       "scale" : "2x"
     },
     {
       "idiom" : "watch",
+      "filename" : "K1Small-1.png",
       "screenWidth" : "{130,145}",
       "scale" : "2x"
     },
     {
       "idiom" : "watch",
-      "filename" : "48Lane11.png",
+      "filename" : "K1.png",
       "screenWidth" : "{146,165}",
       "scale" : "2x"
     }

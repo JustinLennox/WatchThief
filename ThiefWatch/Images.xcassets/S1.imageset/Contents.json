@@ -6,12 +6,13 @@
     },
     {
       "idiom" : "watch",
+      "filename" : "S1Small.png",
       "screenWidth" : "{130,145}",
       "scale" : "2x"
     },
     {
       "idiom" : "watch",
-      "filename" : "42Lane21.png",
+      "filename" : "S1.png",
       "screenWidth" : "{146,165}",
       "scale" : "2x"
     }

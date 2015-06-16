@@ -2,15 +2,16 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "ThiefWatchLogo.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "WatchThiefLogo-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "WatchThiefLogo.png",
       "scale" : "3x"
     }
   ],

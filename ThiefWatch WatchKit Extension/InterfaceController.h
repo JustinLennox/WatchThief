@@ -13,6 +13,7 @@
 
 //Opening Screen UI
 @property (strong, nonatomic) IBOutlet WKInterfaceImage *titleImage;
+@property (strong, nonatomic) IBOutlet WKInterfaceLabel *titleLabel;
 @property (strong, nonatomic) NSArray *openingUIArray;
 
 //Opening Screen Actions
@@ -40,6 +41,7 @@
 //ReplayUI
 @property (strong, nonatomic) IBOutlet WKInterfaceLabel *theThiefWasLabel;
 @property (strong, nonatomic) IBOutlet WKInterfaceImage *thiefRevealImage;
+@property (nonatomic) BOOL thiefPaused;
 
 
 //Game Logic Mechanics
@@ -50,6 +52,8 @@
 @property (strong, nonatomic) NSDictionary *laneButtonDictionary;
 @property (strong, nonatomic) NSMutableDictionary *currentImageDictionary;
 @property (nonatomic) int thiefLaneNumber;
+@property (nonatomic) int numberOfLooks;
+@property (nonatomic) int maxNumberOfLooks;
 @property (nonatomic) int numberOfPhotos;
 @property (nonatomic) float deactivatedTime;
 @property (nonatomic) float activatedTime;
