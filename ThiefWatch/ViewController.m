@@ -51,7 +51,7 @@
     [self.view addSubview:self.info];
     
     self.currentImage = 0;
-    self.imageArray = @[@"One of these shady hooligans wants to steal your watch!", @"He'll try to blend in with the others to confuse you", @"The characters will only move when you're not looking", @"Tilt your watch away from you and they'll scatter!", @"The true thief will only move forward. The other characters will sneak backwards now and then.", @"Tap the character you think is the thief to put them behind bars!", @"Careful! If you look away for too long the thief will snatch your watch!"];
+    self.imageArray = @[@"These thieves are out to steal your watch!", @"They won't be easy to catch though", @"The thieves will only move when you're not looking", @"Tilt your watch away from you and they'll scatter!", @"The thief leader will only move forward. His underlings will sneak backwards now and then.", @"Tap the character you think is the thief leader to stop the bandits!", @"Careful! If you look away for too long the thief leader will snatch your watch!"];
     
     [self.info setText:[self.imageArray objectAtIndex:self.currentImage]];
     
@@ -59,9 +59,11 @@
     [self.imageView setImage:[UIImage imageNamed:@"Characters256.png"]];
     [self.view addSubview:self.imageView];
     
-    [self.info setFrame:CGRectMake(10.0f, CGRectGetMaxY(self.imageView.frame), self.view.frame.size.width - 20.0f, 300.0f)];
+    NSLog(@"Width::%f", self.view.frame.size.width);
+    NSLog(@"Width - 10:%f", self.view.frame.size.width- 10.0f);
+    [self.info setFrame:CGRectMake(5.0f, CGRectGetMaxY(self.imageView.frame), self.view.frame.size.width - 10.0f, 300.0f)];
     [self.info sizeToFit];
-
+    [self.info setFrame:CGRectMake(10.0f, CGRectGetMaxY(self.imageView.frame), self.view.frame.size.width- 20.0f, self.info.frame.size.height)];
     
     self.tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapHandler:)];
     self.swipeLeftRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeLeftHandler:)];
@@ -118,6 +120,7 @@
 }
 
 -(void)animateImage{
+
     if(self.currentImage == 2 || self.currentImage == 3){
         self.maxAnimation = 4;
         self.imageName = @"WatchAnimation";
