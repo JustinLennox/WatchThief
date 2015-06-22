@@ -1,0 +1,25 @@
+{
+  "images" : [
+    {
+      "idiom" : "watch",
+      "filename" : "K10Small.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "watch",
+      "filename" : "K10Small-1.png",
+      "screenWidth" : "{130,145}",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "watch",
+      "filename" : "K10.png",
+      "screenWidth" : "{146,165}",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

@@ -35,10 +35,13 @@
 //    [self.titleImage setTranslatesAutoresizingMaskIntoConstraints:NO];
 //    [self formatLayout];
     
-    [self.scoreNumberLabel setTranslatesAutoresizingMaskIntoConstraints:NO];
-    [self.howToPlayButton setTranslatesAutoresizingMaskIntoConstraints:NO];
-    [self.watchIcon setTranslatesAutoresizingMaskIntoConstraints:NO];
+//    [self.scoreNumberLabel setTranslatesAutoresizingMaskIntoConstraints:NO];
+//    [self.howToPlayButton setTranslatesAutoresizingMaskIntoConstraints:NO];
+////    [self.watchIcon setTranslatesAutoresizingMaskIntoConstraints:NO];
+//    [self.watchIcon setFrame:CGRectMake(self.view.frame.size.width/2, self.view.frame.size.height/2, 256, 256)];
+
     [self formatLayout];
+
     
 //    UILabel *scoreLabel = [[UILabel alloc] init];
 //    [scoreLabel setFrame:CGRectMake(0, self.view.frame.size.height/2 - 50.0f, self.view.frame.size.width, 50.0f)];
@@ -102,6 +105,15 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    
+    self.watchIcon.translatesAutoresizingMaskIntoConstraints = YES;
+    self.scoreNumberLabel.translatesAutoresizingMaskIntoConstraints = YES;
+    [self.watchIcon setFrame:CGRectMake(self.view.frame.size.width/2 - 64.0f, self.view.frame.size.height/2 - 64.0f, 128.0f, 128.0f)];
+    [self.scoreNumberLabel setFrame:CGRectMake(self.view.frame.size.width/2 - 25.0f, self.view.frame.size.height/2 - 26.0f, 50.0f, 50.0f)];
+    self.charactersImage.translatesAutoresizingMaskIntoConstraints = YES;
+    [self.charactersImage setCenter:self.view.center];
+    [self.charactersImage setFrame:CGRectMake(self.charactersImage.frame.origin.x, CGRectGetMinY(self.howToPlayButton.frame) - 100.0f, 128.0f, 128.0f)];
+    [self.view bringSubviewToFront:self.scoreNumberLabel];
 
 }
 
@@ -118,7 +130,7 @@
     
     [self.view removeConstraints:self.view.constraints];
     
-    NSDictionary *views = @{@"scoreLabel":self.scoreNumberLabel, @"HowToPlay":self.howToPlayButton, @"titleLabel":self.titleLabel, @"watchIcon":self.watchIcon};
+    NSDictionary *views = @{@"scoreLabel":self.scoreNumberLabel, @"HowToPlay":self.howToPlayButton, @"titleLabel":self.titleLabel, @"watchIcon":self.watchIcon, @"charactersImage":self.charactersImage};
     
     NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[HowToPlay]|"
                                                                    options:0                                                                  metrics:nil
@@ -130,44 +142,46 @@
                                                                                                        views:views]];
     
     
+    
     constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-30-[titleLabel]-30-|"
                                                                                                      options:0
                                                                                                      metrics:nil
                                                                                                        views:views]];
     
-    constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-30-[scoreLabel]-30-|"
+    
+    
+    constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-50-[titleLabel]"
                                                                                                      options:0
                                                                                                      metrics:nil
                                                                                                        views:views]];
     
     
-    
-    constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[titleLabel]-50-[HowToPlay]"
-                                                                                                     options:0
-                                                                                                     metrics:nil
-                                                                                                       views:views]];
-    
+//    constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[charactersImage(<=128)][HowToPlay]"
+//                                                                                                     options:0
+//                                                                                                     metrics:nil
+//                                                                                                       views:views]];
     
     
-    constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[watchIcon(<=100)]"
-                                                                                                     options:0
-                                                                                                     metrics:nil
-                                                                                                       views:views]];
+//    constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[watchIcon(<=100)]"
+//                                                                                                     options:0
+//                                                                                                     metrics:nil
+//                                                                                                       views:views]];
     
-    constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[scoreLabel]-[watchIcon(<=100)]"
-                                                                                                     options:NSLayoutFormatAlignAllCenterX
-                                                                                                     metrics:nil
-                                                                                                       views:views]];
-    
-    constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[watchIcon]-20-[titleLabel]"
-                                                                                                     options:NSLayoutFormatAlignAllCenterX
-                                                                                                     metrics:nil
-                                                                                                       views:views]];
+//    constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[scoreLabel]-[watchIcon(<=100)]"
+//                                                                                                     options:NSLayoutFormatAlignAllCenterX
+//                                                                                                     metrics:nil
+//                                                                                                       views:views]];
+//
+//    constraints = [constraints arrayByAddingObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[watchIcon]-20-[titleLabel]"
+//                                                                                                     options:NSLayoutFormatAlignAllCenterX
+//                                                                                                     metrics:nil
+//                                                                                                       views:views]];
     
 
     
     [self.view addConstraints:constraints];
-    
+
+
 }
 
 

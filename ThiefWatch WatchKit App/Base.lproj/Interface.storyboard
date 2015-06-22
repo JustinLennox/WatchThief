@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8066.14"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="SourceSansPro-Light.otf">
@@ -25,19 +25,19 @@
                         <imageView width="1" height="0.69999999999999996" alignment="center" verticalAlignment="center" hidden="YES" image="KWin" id="yZQ-xj-BkG" userLabel="thiefRevealImage"/>
                         <group width="1" height="0.29999999999999999" alignment="left" verticalAlignment="center" spacing="2" id="I73-EF-Zda" userLabel="PlayButtons">
                             <items>
-                                <button width="0.33333332999999998" height="1" alignment="left" title="E" backgroundImage="EasyButton" id="mzT-Ge-2d9">
+                                <button width="0.29999999999999999" height="1" alignment="center" title="E" backgroundImage="EasyButton" id="mzT-Ge-2d9">
                                     <fontDescription key="font" type="system" weight="semibold" pointSize="17"/>
                                     <connections>
                                         <action selector="easyButtonPressed" destination="AgC-eL-Hgc" id="hMv-OK-ZqI"/>
                                     </connections>
                                 </button>
-                                <button width="0.33333333329999998" height="1" alignment="left" title="M" backgroundImage="MediumButton" id="tiT-Fm-mxi">
+                                <button width="0.29999999999999999" height="1" alignment="center" title="M" backgroundImage="MediumButton" id="tiT-Fm-mxi">
                                     <fontDescription key="font" type="system" weight="semibold" pointSize="17"/>
                                     <connections>
                                         <action selector="mediumButtonPressed" destination="AgC-eL-Hgc" id="qVm-fJ-Kwc"/>
                                     </connections>
                                 </button>
-                                <button width="0.33333332999999998" height="1" alignment="right" title="H" backgroundImage="HardButton" id="07w-AI-UGr">
+                                <button width="0.29999999999999999" height="1" alignment="center" title="H" backgroundImage="HardButton" id="07w-AI-UGr">
                                     <fontDescription key="font" type="system" weight="semibold" pointSize="17"/>
                                     <connections>
                                         <action selector="hardButtonPressed" destination="AgC-eL-Hgc" id="KjQ-oi-RPL"/>

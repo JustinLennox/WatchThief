@@ -94,10 +94,9 @@
                 nextNumber = self.numberOfPhotos;
             }
        [self.currentImageDictionary setObject:[NSNumber numberWithInt:nextNumber] forKey:currentCharacter];
-            [[self.laneButtonDictionary objectForKey:key] setBackgroundImageNamed:[NSString stringWithFormat:@"%@%@", [self.laneDictionary objectForKey:key], [NSNumber numberWithInt:nextNumber]]];
+            [[self.laneButtonDictionary objectForKey:key] setBackgroundImageNamed:[NSString stringWithFormat:@"%@%@",[NSNumber numberWithInt:nextNumber], [self.laneDictionary objectForKey:key]]];
         }
     }
-  
 }
 
 -(void)easyMoveThiefForwardInLane: (NSString *) laneNumber{
@@ -108,15 +107,13 @@
         number = self.numberOfPhotos;
     }
     [self.currentImageDictionary setObject:[NSNumber numberWithInt:number] forKey:self.thiefName];
-    [[self.laneButtonDictionary objectForKey:laneNumber] setBackgroundImageNamed:[NSString stringWithFormat:@"%@%@", self.thiefName, [NSNumber numberWithInt:number]]];
+    [[self.laneButtonDictionary objectForKey:laneNumber] setBackgroundImageNamed:[NSString stringWithFormat:@"%@%@", [NSNumber numberWithInt:number], self.thiefName]];
     [self updateThiefTime];
-    
 }
 
 -(void)thiefStay:(NSString *)laneNumber{
     
-
-    [[self.laneButtonDictionary objectForKey:laneNumber] setBackgroundImageNamed:[NSString stringWithFormat:@"%@%@", self.thiefName, [self.currentImageDictionary objectForKey:self.thiefName]]];
+    [[self.laneButtonDictionary objectForKey:laneNumber] setBackgroundImageNamed:[NSString stringWithFormat:@"%@%@",[self.currentImageDictionary objectForKey:self.thiefName], self.thiefName]];
     
 }
 
@@ -130,7 +127,6 @@
     
 }
 -(void)mediumUpdateLanes{
-    
     for(id key in self.laneButtonDictionary){
         if([key isEqualToString:[NSString stringWithFormat:@"%d", self.thiefLaneNumber]]){
             int percentage = arc4random() % 4;
@@ -154,14 +150,13 @@
                 nextNumber = self.numberOfPhotos;
             }
             [self.currentImageDictionary setObject:[NSNumber numberWithInt:nextNumber] forKey:currentCharacter];
-            [[self.laneButtonDictionary objectForKey:key] setBackgroundImageNamed:[NSString stringWithFormat:@"%@%@", [self.laneDictionary objectForKey:key], [NSNumber numberWithInt:nextNumber]]];
+            [[self.laneButtonDictionary objectForKey:key] setBackgroundImageNamed:[NSString stringWithFormat:@"%@%@",[NSNumber numberWithInt:nextNumber], [self.laneDictionary objectForKey:key]]];
         }
     }
     
 }
 
 -(void)hardUpdateLanes{
-    
     [self setLanes];
 
     for(id key in self.laneButtonDictionary){
@@ -189,7 +184,7 @@
                 nextNumber = self.numberOfPhotos;
             }
             [self.currentImageDictionary setObject:[NSNumber numberWithInt:nextNumber] forKey:currentCharacter];
-            [[self.laneButtonDictionary objectForKey:key] setBackgroundImageNamed:[NSString stringWithFormat:@"%@%@", [self.laneDictionary objectForKey:key], [NSNumber numberWithInt:nextNumber]]];
+            [[self.laneButtonDictionary objectForKey:key] setBackgroundImageNamed:[NSString stringWithFormat:@"%@%@",[NSNumber numberWithInt:nextNumber], [self.laneDictionary objectForKey:key]]];
         }
     }
     
@@ -198,7 +193,9 @@
 
 -(void)replayGame{
     self.thiefPaused = false;
-    
+    [[WKInterfaceDevice currentDevice] removeAllCachedImages];
+    WKInterfaceDevice *thisDevice =     [WKInterfaceDevice currentDevice];
+    NSLog(@"%@", [[WKInterfaceDevice currentDevice] cachedImages]);
     [self.titleImage setHidden:true];
     [self.titleLabel setHidden:true];
     [self.lanesGroup setHidden:false];
@@ -256,7 +253,6 @@
 }
 
 -(void)setLanes{
-    
     float ran = arc4random() % 4;
     
     NSDictionary *tempLaneDictionary = [[NSDictionary alloc] init];
@@ -272,7 +268,7 @@
     }
     
     for(id key in tempLaneDictionary){
-        
+
         if([[tempLaneDictionary objectForKey:key] isEqualToString:self.thiefName]){
             self.thiefLaneNumber = [key intValue];
         }
@@ -281,17 +277,18 @@
 }
 
 -(void)setBeginningImages{
-    
+
     for(id key in self.laneDictionary){
+
         [self.lane1 setBackgroundImageNamed:[NSString stringWithFormat:
-                                             @"%@1", [self.laneDictionary objectForKey:@"1"]]];
-        
+                                             @"1%@", [self.laneDictionary objectForKey:@"1"]]];
+
         [self.lane2 setBackgroundImageNamed:[NSString stringWithFormat:
-                                             @"%@1", [self.laneDictionary objectForKey:@"2"]]];
+                                             @"1%@", [self.laneDictionary objectForKey:@"2"]]];
         [self.lane3 setBackgroundImageNamed:[NSString stringWithFormat:
-                                             @"%@1", [self.laneDictionary objectForKey:@"3"]]];
+                                             @"1%@", [self.laneDictionary objectForKey:@"3"]]];
         [self.lane4 setBackgroundImageNamed:[NSString stringWithFormat:
-                                             @"%@1", [self.laneDictionary objectForKey:@"4"]]];
+                                             @"1%@", [self.laneDictionary objectForKey:@"4"]]];
         
         self.currentImageDictionary = [NSMutableDictionary dictionaryWithDictionary:@{@"K":@1, @"I":@1, @"B":@1, @"S":@1}];
         
@@ -324,7 +321,6 @@
 }
 
 -(void)gameOver{
-    
     self.gameRunning = false;
     [self.gemImage setHidden:true];
     [self.lanesGroup setHidden:true];
@@ -336,7 +332,6 @@
 
 
 -(void)revealThief{
-
     [self.theThiefWasLabel setHidden:true];
     [self.thiefRevealImage setHidden:false];
     NSUserDefaults *mySharedDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.WatchThief"];

@@ -11,13 +11,12 @@
 		D00CF1FD1B2F6079008CDEAB /* Bandana.png in Resources */ = {isa = PBXBuildFile; fileRef = D00CF1FC1B2F6079008CDEAB /* Bandana.png */; };
 		D00CF1FF1B2F60ED008CDEAB /* flatWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = D00CF1FE1B2F60ED008CDEAB /* flatWatch.png */; };
 		D00CF2011B2F61ED008CDEAB /* Characters512.png in Resources */ = {isa = PBXBuildFile; fileRef = D00CF2001B2F61ED008CDEAB /* Characters512.png */; };
-		D02A6D561B2E24920069C76F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A6D551B2E24920069C76F /* StoreKit.framework */; };
-		D02A6D581B2E24980069C76F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A6D571B2E24980069C76F /* AudioToolbox.framework */; };
-		D02A6D5A1B2E25310069C76F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A6D571B2E24980069C76F /* AudioToolbox.framework */; };
+		D03F86B51B30B35500EBA2EF /* ThiefWatch.app in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A541B28EBE8007AFDF6 /* ThiefWatch.app */; };
 		D041E5D81B2D129300FB7EBB /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A4E1B28EBE8007AFDF6 /* InterfaceController.m */; };
-		D041E5DB1B2D12E600FB7EBB /* ThiefWatch.app in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A1C1B28EB77007AFDF6 /* ThiefWatch.app */; };
+		D04445661B33584A008F9756 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05E38ED1B334FD800995535 /* Images.xcassets */; };
 		D05834D51B2B9F6200DE17EC /* Characters256.png in Resources */ = {isa = PBXBuildFile; fileRef = D05834D41B2B9F6200DE17EC /* Characters256.png */; };
 		D05834D71B2BA09300DE17EC /* OtherImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05834D61B2BA09300DE17EC /* OtherImages.xcassets */; };
+		D05E38EE1B334FD800995535 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05E38ED1B334FD800995535 /* Images.xcassets */; };
 		D060824D1B2DF589003DB933 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D09334221B2B8FFF00AE0361 /* SourceSansPro-Light.otf */; };
 		D060824E1B2DF58B003DB933 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D09334221B2B8FFF00AE0361 /* SourceSansPro-Light.otf */; };
 		D06082521B2E0801003DB933 /* WatchAnimation1.png in Resources */ = {isa = PBXBuildFile; fileRef = D060824F1B2E0801003DB933 /* WatchAnimation1.png */; };
@@ -42,7 +41,6 @@
 		D08B7A3C1B28EB77007AFDF6 /* ThiefWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7A3B1B28EB77007AFDF6 /* ThiefWatchTests.m */; };
 		D08B7A5D1B28EBE8007AFDF6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A5B1B28EBE8007AFDF6 /* Interface.storyboard */; };
 		D08B7A621B28EBE8007AFDF6 /* ThiefWatch.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D08B7A491B28EBE8007AFDF6 /* ThiefWatch.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D08B7A6B1B28ECF6007AFDF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08B7A2C1B28EB77007AFDF6 /* Images.xcassets */; };
 		D09334211B2B8F1900AE0361 /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = D09334201B2B8F1900AE0361 /* Launch.png */; };
 		D09334231B2B8FFF00AE0361 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D09334221B2B8FFF00AE0361 /* SourceSansPro-Light.otf */; };
 		D0E0428E1B2F2B670069DB40 /* WatchThiefTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E0428D1B2F2B670069DB40 /* WatchThiefTitle.png */; };
@@ -94,10 +92,9 @@
 		D00CF1FC1B2F6079008CDEAB /* Bandana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bandana.png; sourceTree = "<group>"; };
 		D00CF1FE1B2F60ED008CDEAB /* flatWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flatWatch.png; sourceTree = "<group>"; };
 		D00CF2001B2F61ED008CDEAB /* Characters512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Characters512.png; sourceTree = "<group>"; };
-		D02A6D551B2E24920069C76F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		D02A6D571B2E24980069C76F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D05834D41B2B9F6200DE17EC /* Characters256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Characters256.png; sourceTree = "<group>"; };
 		D05834D61B2BA09300DE17EC /* OtherImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = OtherImages.xcassets; sourceTree = "<group>"; };
+		D05E38ED1B334FD800995535 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "/Users/Justin/Documents/ThiefWatch/ThiefWatch WatchKit App/Images.xcassets"; sourceTree = "<absolute>"; };
 		D060824F1B2E0801003DB933 /* WatchAnimation1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatchAnimation1.png; sourceTree = "<group>"; };
 		D06082511B2E0801003DB933 /* WatchAnimation3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatchAnimation3.png; sourceTree = "<group>"; };
 		D06082571B2E0B62003DB933 /* WatchAnimation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatchAnimation2.png; sourceTree = "<group>"; };
@@ -122,7 +119,6 @@
 		D08B7A261B28EB77007AFDF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D08B7A271B28EB77007AFDF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D08B7A2A1B28EB77007AFDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D08B7A2C1B28EB77007AFDF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../ThiefWatch/Images.xcassets; sourceTree = "<group>"; };
 		D08B7A2F1B28EB77007AFDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D08B7A351B28EB77007AFDF6 /* ThiefWatch.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThiefWatch.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08B7A3A1B28EB77007AFDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,8 +143,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02A6D561B2E24920069C76F /* StoreKit.framework in Frameworks */,
-				D02A6D581B2E24980069C76F /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +157,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02A6D5A1B2E25310069C76F /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +166,6 @@
 		D08B7A131B28EB76007AFDF6 = {
 			isa = PBXGroup;
 			children = (
-				D02A6D571B2E24980069C76F /* AudioToolbox.framework */,
-				D02A6D551B2E24920069C76F /* StoreKit.framework */,
 				D08B7A1E1B28EB77007AFDF6 /* ThiefWatch */,
 				D08B7A381B28EB77007AFDF6 /* ThiefWatchTests */,
 				D08B7A4A1B28EBE8007AFDF6 /* ThiefWatch WatchKit Extension */,
@@ -283,7 +274,7 @@
 		D08B7A581B28EBE8007AFDF6 /* ThiefWatch WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				D08B7A2C1B28EB77007AFDF6 /* Images.xcassets */,
+				D05E38ED1B334FD800995535 /* Images.xcassets */,
 				D08B7A5B1B28EBE8007AFDF6 /* Interface.storyboard */,
 				D08B7A591B28EBE8007AFDF6 /* Supporting Files */,
 			);
@@ -388,13 +379,13 @@
 								enabled = 1;
 							};
 							com.apple.GameCenter = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.InAppPurchase = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.InterAppAudio = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -488,8 +479,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04445661B33584A008F9756 /* Images.xcassets in Resources */,
+				D03F86B51B30B35500EBA2EF /* ThiefWatch.app in Resources */,
 				D060824D1B2DF589003DB933 /* SourceSansPro-Light.otf in Resources */,
-				D041E5DB1B2D12E600FB7EBB /* ThiefWatch.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,8 +489,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05E38EE1B334FD800995535 /* Images.xcassets in Resources */,
 				D060824E1B2DF58B003DB933 /* SourceSansPro-Light.otf in Resources */,
-				D08B7A6B1B28ECF6007AFDF6 /* Images.xcassets in Resources */,
 				D08B7A5D1B28EBE8007AFDF6 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

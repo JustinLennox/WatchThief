@@ -17,5 +17,6 @@
 @property (strong, nonatomic) IBOutlet UIButton *howToPlayButton;
 @property (strong, nonatomic) IBOutlet UIImageView *watchIcon;
 @property (strong, nonatomic) IBOutlet UILabel *scoreNumberLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *charactersImage;
 
 @end

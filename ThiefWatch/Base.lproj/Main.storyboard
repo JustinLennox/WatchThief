@@ -46,7 +46,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="watchthief" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="ET0-Yb-Gts">
-                                <rect key="frame" x="0.0" y="374" width="600" height="108"/>
+                                <rect key="frame" x="0.0" y="60" width="600" height="108"/>
                                 <fontDescription key="fontDescription" name="SFUIDisplay-Light" family="SF UI Display" pointSize="100"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -62,19 +62,23 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="8RA-JW-dfx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="JcC-uQ-iJk">
-                                <rect key="frame" x="146" y="77" width="295" height="129"/>
-                                <fontDescription key="fontDescription" name="SFUIDisplay-Light" family="SF UI Display" pointSize="100"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flatWatch.png" translatesAutoresizingMaskIntoConstraints="NO" id="9rK-pU-OAt">
+                                <rect key="frame" x="235" y="277" width="106" height="89"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.050000000000000017" translatesAutoresizingMaskIntoConstraints="NO" id="JcC-uQ-iJk">
+                                <rect key="frame" x="265" y="303" width="49" height="36"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Light" family="SF UI Display" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flatWatch.png" translatesAutoresizingMaskIntoConstraints="NO" id="9rK-pU-OAt">
-                                <rect key="frame" x="235" y="277" width="106" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Characters256.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y8A-WZ-BWv">
+                                <rect key="frame" x="180" y="426" width="128" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="charactersImage" destination="Y8A-WZ-BWv" id="QDK-HJ-Pvg"/>
                         <outlet property="howToPlayButton" destination="YIr-SQ-Dvt" id="ekX-fb-gba"/>
                         <outlet property="scoreNumberLabel" destination="JcC-uQ-iJk" id="BlO-oC-Bbr"/>
                         <outlet property="titleLabel" destination="ET0-Yb-Gts" id="W8I-DY-d6k"/>
@@ -88,6 +92,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Characters256.png" width="256" height="256"/>
         <image name="flatWatch.png" width="421" height="244"/>
     </resources>
     <inferredMetricsTieBreakers>
